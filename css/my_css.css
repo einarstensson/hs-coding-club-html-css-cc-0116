@@ -1,1 +1,34 @@
-/*Write your custom CSS here!!!*/
+.navbar {
+  background-color: rgba(0,0,0,0.5);
+}
+
+div.intro-text {
+  background-color: rgba(0,0,0,0.5);
+}
+
+hr.star-light { 
+  border-color: rgb(44,62,80);
+}
+
+hr.star-light:after {
+    color: gold;
+    background-color: transparent;
+}
+
+.img-responsive {
+  width: 100%;
+  position: absolute;
+}
+
+#portfolio {
+  background-color: transparent;
+  margin-top: 45%;
+}
+ 
+.nav .active a { 
+  background: rgba(0,0,0,0.7) !important; 
+}
+
+section.success {
+  background-color: black !important;
+}
